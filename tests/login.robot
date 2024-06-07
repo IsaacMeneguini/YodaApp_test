@@ -16,35 +16,7 @@ Deve logar com sucesso
 
     Close session
 
-Não deve logar com email incorreto
-    Start session
-    Get started
-    Navigate to                    Formulários
-    Go to item                     Login                                       Olá Padawan, vamos testar o login?
-
-    Input Text                     ${EMAIL_INPUT}                              teste@qax.com
-    Input Text                     ${SENHA_INPUT}                              jedi
-    Click Element                  ${ENTRAR_BTN}
-
-    Wait Until Page Contains       Oops! Credenciais incorretas.               10
-
-    Close session
-
-Não deve logar com senha incorreta
-    Start session
-    Get started
-    Navigate to                    Formulários
-    Go to item                     Login                                       Olá Padawan, vamos testar o login?
-
-    Input Text                     ${EMAIL_INPUT}                              yoda@qax.com
-    Input Text                     ${SENHA_INPUT}                              sith
-    Click Element                  ${ENTRAR_BTN}
-
-    Wait Until Page Contains       Oops! Credenciais incorretas.               10
-
-    Close session
-
-Não deve logar com email em branco
+Não pode logar com email em branco
     Start session
     Get started
     Navigate to                    Formulários
@@ -58,7 +30,7 @@ Não deve logar com email em branco
 
     Close session
 
-Não deve logar com senha em branco
+Não pode logar com senha em branco
     Start session
     Get started
     Navigate to                   Formulários
@@ -71,3 +43,33 @@ Não deve logar com senha em branco
     Wait Until Page Contains      Uma senha você deve informar!               10
 
     Close session
+
+Não pode logar com email incorreto
+    Start session
+    Get started
+    Navigate to                    Formulários
+    Go to item                     Login                                       Olá Padawan, vamos testar o login?
+
+    Input Text                     ${EMAIL_INPUT}                              teste@qax.com
+    Input Text                     ${SENHA_INPUT}                              jedi
+    Click Element                  ${ENTRAR_BTN}
+
+    Wait Until Page Contains       Oops! Credenciais incorretas.               10
+
+    Close session
+
+Não pode logar com senha incorreta
+    Start session
+    Get started
+    Navigate to                    Formulários
+    Go to item                     Login                                       Olá Padawan, vamos testar o login?
+
+    Input Text                     ${EMAIL_INPUT}                              yoda@qax.com
+    Input Text                     ${SENHA_INPUT}                              sith
+    Click Element                  ${ENTRAR_BTN}
+
+    Wait Until Page Contains       Oops! Credenciais incorretas.               10
+
+    Close session
+
+
