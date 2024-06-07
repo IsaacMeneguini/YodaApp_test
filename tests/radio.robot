@@ -2,7 +2,7 @@
 Resource    ../resources/main.robot
 
 *** Test Cases ***
-Deve selecionar a opção em Javascript
+Deve selecionar a opção em Python
     
     Start session
     Get started
