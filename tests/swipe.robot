@@ -2,7 +2,7 @@
 Resource   ../resources/base.resource
 
 *** Test Cases ***
- Remover o Mandaloriano
+Remover o Mandaloriano
     Start session
     Get started
 
