@@ -2,7 +2,7 @@
 Resource   ../resources/base.resource
 
 *** Test Cases ***
-Deve poder remover o Mandaloriano
+ Remover o Mandaloriano
     Start session
     Get started
 
@@ -23,7 +23,7 @@ Deve poder remover o Mandaloriano
 
     Close session
 
-Deve poder remover o Darth Vader
+Remover o Darth Vader
     Start session
     Get started
 
@@ -44,7 +44,7 @@ Deve poder remover o Darth Vader
     
     Close session
 
-Deve poder remover o Princesa Leia
+Remover o Princesa Leia
     Start session
     Get started
 
@@ -65,7 +65,7 @@ Deve poder remover o Princesa Leia
 
     Close session
 
-Deve poder remover o Luke Skywalker
+Remover o Luke Skywalker
     Start session
     Get started
 
@@ -86,7 +86,7 @@ Deve poder remover o Luke Skywalker
 
     Close session
 
-Deve poder remover o Chewbacca
+Remover o Chewbacca
     Start session
     Get started
 
