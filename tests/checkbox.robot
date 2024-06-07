@@ -2,7 +2,7 @@
 Resource    ../resources/main.robot
 
 *** Test Cases ***
-Deve marcar as tags que usam Appium
+ Marque as linguagens de programacao
     
     Start session
     Get started
