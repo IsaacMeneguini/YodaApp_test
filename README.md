@@ -9,7 +9,7 @@ Instale na sua maquina as seguintes ferramentas
 - Appium, Appium-doctor, appium inspector 
 - Robot Framework
 - AppiumLibrary
-- vs code
+- Vs code
 
 
   Instalar  JDK11  e Android Studio
