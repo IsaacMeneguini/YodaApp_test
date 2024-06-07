@@ -11,7 +11,7 @@ Deve arrastar o Skywalker e soltar no topo da lista
     Start session
     Get started
     Navigate to    Star Wars
-    Go to item     Lista         Luke Skywalker
+    Go to item     Lista         Darth Vader
 
     ${origin}    Set Variable    ${ORIGIN_ELEMENT}
     ${target}    Set Variable    ${TARGET_ELEMENT} 
