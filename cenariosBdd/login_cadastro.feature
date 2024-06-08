@@ -19,4 +19,13 @@ Dado que o usuario esteja na tela de formulario
 E clicar em login
 E escrever o email que foi cadastrado
 E a senha valida
-Então 
+E clicar em entrar
+Então recebera uma mensagem Boas vindas, logado você está.
+
+cenario login com email invalido
+Dado que o usuario esteja na tela de formulario
+E clicar em login
+Mas escrever email invalido
+E a senha valida
+E clicar em entrar
+Então recebera uma mensagem oops! credenciais incorretas.
